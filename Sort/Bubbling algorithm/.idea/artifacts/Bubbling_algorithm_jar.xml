@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Bubbling algorithm:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bubbling_algorithm_jar</output-path>
+    <root id="archive" name="Bubbling algorithm.jar">
+      <element id="module-output" name="Bubbling algorithm" />
+    </root>
+  </artifact>
+</component>
