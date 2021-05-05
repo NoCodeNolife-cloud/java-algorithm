@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="quick Sort:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/quick_Sort_jar</output-path>
+    <root id="root">
+      <element id="archive" name="quick Sort.jar">
+        <element id="module-output" name="quick Sort" />
+      </element>
+    </root>
+  </artifact>
+</component>
