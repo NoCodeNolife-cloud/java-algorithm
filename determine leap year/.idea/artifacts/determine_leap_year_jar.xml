@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="determine leap year:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/determine_leap_year_jar</output-path>
+    <root id="archive" name="determine leap year.jar">
+      <element id="module-output" name="determine leap year" />
+    </root>
+  </artifact>
+</component>
