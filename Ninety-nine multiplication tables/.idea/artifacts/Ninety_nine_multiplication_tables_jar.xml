@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ninety-nine multiplication tables:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ninety_nine_multiplication_tables_jar</output-path>
+    <root id="archive" name="Ninety-nine multiplication tables.jar">
+      <element id="module-output" name="Ninety-nine multiplication tables" />
+    </root>
+  </artifact>
+</component>

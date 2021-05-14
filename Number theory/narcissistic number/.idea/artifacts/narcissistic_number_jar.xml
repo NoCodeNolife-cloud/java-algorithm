@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="narcissistic number:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/narcissistic_number_jar</output-path>
+    <root id="archive" name="narcissistic number.jar">
+      <element id="module-output" name="narcissistic number" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Print the numbers in reverse order:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Print_the_numbers_in_reverse_order_jar</output-path>
+    <root id="archive" name="Print the numbers in reverse order.jar">
+      <element id="module-output" name="Print the numbers in reverse order" />
+    </root>
+  </artifact>
+</component>
