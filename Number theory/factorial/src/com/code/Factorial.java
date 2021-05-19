@@ -10,7 +10,7 @@ public class Factorial {
         value[0] = 1;
         for (int i = 1; i < _num; ++i) {
 
-            value[i] = value[i - 1] * i;
+            value[i] = value[i - 1] * (i+1);
         }
     }
 

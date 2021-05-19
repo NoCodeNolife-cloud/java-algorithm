@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="swap array:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/swap_array_jar</output-path>
+    <root id="archive" name="swap array.jar">
+      <element id="module-output" name="swap array" />
+    </root>
+  </artifact>
+</component>

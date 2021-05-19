@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Yang hui triangle:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Yang_hui_triangle_jar</output-path>
+    <root id="archive" name="Yang hui triangle.jar">
+      <element id="module-output" name="Yang hui triangle" />
+    </root>
+  </artifact>
+</component>
