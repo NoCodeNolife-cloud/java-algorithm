@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="637522f8-2017-49e5-a09d-6f1bdedca180" name="Changes" comment="" />
+    <list default="true" id="711b4c10-e46e-47e7-9674-fe8e4d34d606" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="21zVqePeoeJVPJ7JMivvpGm2Zdm" />
+  <component name="ProjectId" id="222XgtgBsyAu4Y187DtckSVJjeJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -79,19 +72,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.NoCodeNoLife.Main" />
-      <module name="N queen problem" />
+      <module name="two sum equal target" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -107,15 +94,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="637522f8-2017-49e5-a09d-6f1bdedca180" name="Changes" comment="" />
-      <created>1638944095201</created>
+      <changelist id="711b4c10-e46e-47e7-9674-fe8e4d34d606" name="Changes" comment="" />
+      <created>1639036770493</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638944095201</updated>
-      <workItem from="1638944096813" duration="1266000" />
-      <workItem from="1638945397420" duration="89000" />
-      <workItem from="1638945884527" duration="6034000" />
-      <workItem from="1639046158543" duration="22000" />
+      <updated>1639036770493</updated>
+      <workItem from="1639036771825" duration="1713000" />
     </task>
     <servers />
   </component>

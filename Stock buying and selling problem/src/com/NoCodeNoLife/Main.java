@@ -1,5 +1,10 @@
 package com.NoCodeNoLife;
 
+/**
+ * 给定一个数组，它的第i个元素是一支给定的股票在第i天的价格
+ * 计算所能得到的最大利润，最多可以完成k笔交易
+ * 不能同时完成多笔交易
+ */
 public class Main {
 
     public static void main(String[] args) {
