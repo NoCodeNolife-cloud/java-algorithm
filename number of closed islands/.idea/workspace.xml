@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e46c7f39-c095-40cd-8173-80da8ebdc096" name="Changes" comment="" />
+    <list default="true" id="4e5893f7-f163-43bc-98fb-68a86d3fbc0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="22UAK7YQ2t7yiL7vFjk1mopBbdc" />
+  <component name="ProjectId" id="22ZkEDF7WIi8vTnWJJ5xIrBVjLQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -74,12 +74,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.NoCodeNoLife.Main" />
-      <module name="target sum" />
+      <module name="number of closed islands" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -96,14 +95,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e46c7f39-c095-40cd-8173-80da8ebdc096" name="Changes" comment="" />
-      <created>1639881745507</created>
+      <changelist id="4e5893f7-f163-43bc-98fb-68a86d3fbc0d" name="Changes" comment="" />
+      <created>1640052383784</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639881745507</updated>
-      <workItem from="1639881747590" duration="1035000" />
-      <workItem from="1639882847478" duration="1721000" />
-      <workItem from="1639924441572" duration="3191000" />
+      <updated>1640052383784</updated>
+      <workItem from="1640052385129" duration="1698000" />
+      <workItem from="1640054111019" duration="29000" />
     </task>
     <servers />
   </component>

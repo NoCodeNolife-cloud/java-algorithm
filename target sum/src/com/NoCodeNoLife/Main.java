@@ -1,7 +1,8 @@
 package com.NoCodeNoLife;
 
-import java.util.HashMap;
-
+// Given an array of non-negative integers, a1, A2.... An and a target number, s. Now you have two symbols + and -.
+// For any integer in the array, you can add a symbol from + or - to the front of it.
+// Returns the number of methods that can make the final array and add symbols to the target number S.
 public class Main {
 
     public static void main(String[] args) {
@@ -10,29 +11,35 @@ public class Main {
     }
 
     public static int findTargetSumWays(int[] nums, int target) {
-        if (nums.length == 0) return 0;
-        return dp(nums, 0, target);
-    }
-
-    // 备忘录
-    public static HashMap<String, Integer> memo = new HashMap<>();
-
-    public static int dp(int[] nums, int i, int rest) {
-        // base case
-        if (i == nums.length) {
-            if (rest == 0) return 1;
+        int sum = 0;
+        for (int n : nums) sum += n;
+        // In those two cases, we don't have the possibility to divide the divide collections.
+        if (sum < target || (sum + target) % 2 == 1) {
             return 0;
         }
-        // 把它俩转成字符串才能作为哈希表的键
-        String key = i + "," + rest;
-        // 避免重复计算
-        if (memo.containsKey(key)) {
-            return memo.get(key);
+        return subsets(nums, (sum + target) / 2);
+    }
+
+    // count for the number of subset sums arrays equal to sum value
+    public static int subsets(int[] nums, int sum) {
+        int n = nums.length;
+        int[][] dp = new int[n + 1][sum + 1];
+        // base case
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 1;
         }
-        // 还是穷举
-        int result = dp(nums, i + 1, rest - nums[i]) + dp(nums, i + 1, rest + nums[i]);
-        // 记入备忘录
-        memo.put(key, result);
-        return result;
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j <= sum; j++) {
+                if (j >= nums[i-1]) {
+                    // The sum of two ways to choose
+                    dp[i][j] = dp[i-1][j] + dp[i-1][j-nums[i-1]];
+                } else {
+                    // Backpack space is insufficient, can only choose not to pack item I
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
+        return dp[n][sum];
     }
 }
