@@ -52,10 +52,6 @@ public class SortList {
                 --tright;
             }
         }
-        if(tleft==tright){
-
-            ++tleft;
-        }
         if(_left<tright){
 
             quickSort(_left,tleft-1);
